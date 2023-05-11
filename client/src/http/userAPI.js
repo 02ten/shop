@@ -5,10 +5,12 @@ export const registration = async (name, username, password, telephone) => {
     const response = await $host.post('/registration', {name, telephone, username, password})
     return response
 }
-export const login = async (email, password) => {
-    const {data} = await $host.post('/user/login', {email, password})
-    localStorage.setItem('token', data.token)
-    return jwtDecode(data.token)
+export const login = async (username, password) => {
+    const {data} = await $host.post('/login', {username, password})
+    console.log(data)
+    console.log(data.access_token)
+    localStorage.setItem('token', data.access_token)
+    return jwtDecode(data.access_token)
 }
 
 export const check = async () => {
