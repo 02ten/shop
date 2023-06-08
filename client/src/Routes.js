@@ -1,31 +1,44 @@
 import {
-    ABOUT_ROUTE,
+    ABOUT_ROUTE, ADMIN_CATEGORIES_ROUTE, ADMIN_ORDERS_ROUTE, ADMIN_PRODUCTS_ROUTE, ADMIN_ROUTE, CART_ROUTE,
     CATALOG_ROUTE,
     HOME_ROUTE,
     LOGIN_ROUTE,
-    ORDERS_ADMIN,
-    PRODUCTS_ADMIN,
     REGISTRATION_ROUTE
 } from "./utils/consts";
-import ProductAdmin from "./Pages/ProductAdmin";
-import OrderAdmin from "./Pages/OrderAdmin";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Catalog from "./Pages/Catalog";
 import Auth from "./Pages/Auth";
+import Cart from "./Pages/Cart";
+import AdminCategories from "./Pages/AdminCategories";
+import AdminOrders from "./Pages/AdminOrders";
+import AdminProducts from "./Pages/AdminProducts";
 
 
 export const authRoutes = [
+
     {
-        path: PRODUCTS_ADMIN,
-        Element: ProductAdmin
+        path: CART_ROUTE,
+        Element: Cart
+    }
+]
+export const adminRoutes =[
+    {
+        path: ADMIN_CATEGORIES_ROUTE,
+        Element: AdminCategories
+
     },
     {
-        path: ORDERS_ADMIN,
-        Element: OrderAdmin
+        path: ADMIN_ORDERS_ROUTE,
+        Element: AdminOrders
+
+    },
+    {
+        path: ADMIN_PRODUCTS_ROUTE,
+        Element: AdminProducts
+
     },
 ]
-
 export const publicRoutes = [
     {
         path: HOME_ROUTE,
@@ -36,7 +49,7 @@ export const publicRoutes = [
         Element: About
     },
     {
-        path: CATALOG_ROUTE,
+        path: CATALOG_ROUTE+':id',
         Element: Catalog
     },
     {

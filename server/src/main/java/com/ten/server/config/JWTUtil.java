@@ -9,6 +9,7 @@ import org.springframework.stereotype.Component;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.Date;
+import java.util.HashMap;
 
 @Component
 public class JWTUtil {
@@ -51,7 +52,6 @@ public class JWTUtil {
 
 
     public String generateToken(String username){
-
         return Jwts.builder()
                 .setIssuer( appName )
                 .setSubject(username)
@@ -117,6 +117,6 @@ public class JWTUtil {
 
 
     public String getAuthHeaderFromHeader( HttpServletRequest request ) {
-        return request.getHeader("Authorization");
+        return request.getHeader("authorization");
     }
 }
