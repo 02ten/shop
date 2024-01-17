@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequiredArgsConstructor
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "http://89.19.176.6:3000")
 public class CategoryController {
     private final CategoryService categoryService;
     @GetMapping("/category")

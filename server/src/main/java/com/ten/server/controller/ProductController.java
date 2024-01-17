@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequiredArgsConstructor
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "http://89.19.176.6:3000")
 public class ProductController {
     private final ProductService productService;
     @GetMapping("/products")

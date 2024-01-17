@@ -6,29 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="1bc92f7b-aa4e-4f2e-98de-f0a5e2635ef3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/About.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Cart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Catalog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Catalog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/OrderAdmin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/ProductAdmin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppRouter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/http/userAPI.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/http/userAPI.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stores/userStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stores/userStore.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/consts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/consts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/src/main/java/com/ten/server/config/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/com/ten/server/config/Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/src/main/java/com/ten/server/config/JWTAuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/com/ten/server/config/JWTAuthFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/src/main/java/com/ten/server/config/JWTUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/com/ten/server/config/JWTUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../server/src/main/java/com/ten/server/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/com/ten/server/controller/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/src/main/java/com/ten/server/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/com/ten/server/entity/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/src/main/java/com/ten/server/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/com/ten/server/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/src/main/java/com/ten/server/repositories/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/com/ten/server/repositories/ProductRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/src/main/java/com/ten/server/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/com/ten/server/repositories/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/main/java/com/ten/server/controller/CartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/com/ten/server/controller/CartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/main/java/com/ten/server/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/com/ten/server/controller/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/main/java/com/ten/server/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/com/ten/server/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/main/java/com/ten/server/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/com/ten/server/controller/ProductController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

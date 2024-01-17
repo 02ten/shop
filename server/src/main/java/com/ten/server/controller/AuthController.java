@@ -27,7 +27,7 @@ import java.util.stream.Collectors;
 
 @RestController
 @RequiredArgsConstructor
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "http://89.19.176.6:3000")
 public class AuthController {
     private final UserService userService;
     private final AuthenticationManager authenticationManager;

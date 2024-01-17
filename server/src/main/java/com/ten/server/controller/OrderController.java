@@ -18,7 +18,7 @@ import java.util.List;
 
 @RestController
 @RequiredArgsConstructor
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "http://89.19.176.6:3000")
 public class OrderController {
     private final OrderService orderService;
     private final CartService cartService;
